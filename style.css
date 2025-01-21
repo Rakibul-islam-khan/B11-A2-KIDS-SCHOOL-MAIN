@@ -1,0 +1,122 @@
+
+
+.dancing-script-primary {
+    font-family: "Quicksand", serif;
+    font-style: normal;
+  }
+
+body{
+    margin-left: 141px;
+    margin-right: 141px;
+}
+
+/* nav style */
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo-img{
+    width: 62px;
+    height: 62px;
+}
+.logo-text{
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.nav>li{
+    list-style-type: none;
+    margin-right: 32px;
+}
+.nav{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 186px;
+    margin-right: 154px;
+    
+}
+header > .icon{
+    
+    display: none;
+    
+}
+.home{
+    font-weight: bold;
+    color: orange;
+}
+.about{
+    color: skyblue;
+}
+.facilities{
+    color: #05D4DF;
+}
+.admission{
+    color: #5D58EF;
+}
+
+
+.primary-btn{
+    color: #ffffff;
+    padding: 10px 60px 10px 60px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* nav style */
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    /* nav style */
+
+    body{
+      margin: 0;
+    }
+    
+    .header{
+        padding: 16px;
+        justify-content: space-between;
+        border: solid 1px orange;
+
+    .logo-text{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .primary-btn{
+        display: none;
+    }
+    .logo-img{
+       margin-: 142px;
+        width: 46px;
+        height: 46px;
+    }
+    
+    }
+    header > .icon{
+        display: inline-block;
+        font-size: 30px;
+        
+        
+    }
+
+    /* nav style */
+   
+    
+}
