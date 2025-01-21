@@ -75,9 +75,48 @@ header > .icon{
 /* nav style */
 
 
+/* main content part */
 
 
+.content-banner-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-banner-h-1{
+    font-size: 56px;
+    font-weight: bold;
+    color: black;
+}
 
+.empowering{
+    color: orange;
+}
+.towards-vision{
+    color: skyblue;
+}
+.content-banner-p-1{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.primary-btn-black{
+    background-color: black;
+}
+
+.content-banner-text-1{
+    flex: 1;
+    
+}
+.content-banner-img-1{
+    flex: 1;
+}
+.content-banner-img-1 > img{
+    max-width: 100%;
+}
+
+/* main content part */
 
 
 @media screen and (max-width: 576px) {
@@ -117,6 +156,38 @@ header > .icon{
     }
 
     /* nav style */
+
+    /* main content part */
+
+    .content-banner-1{
+        flex-direction: column;
+      }
+    .content-banner-text-1{
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .content-banner-h-1{
+        font-size: 32px;
+    }
+    .content-banner-img-1{
+        order: -1;
+        width: 90%;
+        
+    }
+    .content-banner-p-1{
+        font-size: 14px;
+    }
+    .primary-btn-black{
+        font-size: 16px;
+    }
+    /* main content part */
+
    
     
 }
