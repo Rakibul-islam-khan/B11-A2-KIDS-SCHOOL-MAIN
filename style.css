@@ -6,6 +6,7 @@
   }
 
 body{
+    background: linear-gradient(to top, #ebd1a454, white);
     margin-left: 141px;
     margin-right: 141px;
 }
@@ -119,6 +120,10 @@ header > .icon{
 
 /* main content part */
 
+.content-banner-2{
+    background-image: url(images/bg.png);
+}
+
 .content-banner-2nd-part-title{
     font-size: 46px;
     font-weight: bold;
@@ -206,6 +211,124 @@ header > .icon{
 .greater{
     margin-left: 20px;
 }
+
+
+.stories{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.stories-title{
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 100px;
+}
+.stories-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.stories-card-single{
+    
+    border-radius: 16px;
+    background-color: white;
+    border-style: none;
+    border-radius: 26px;
+    width: 440px;
+}
+.stories-card-single-img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+}
+.single-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.single-description{
+    font-size: 15px;
+    font-weight: 500;
+    color: #666666;
+    padding: 20px;
+    margin-top: 50px;
+}
+.btn-stories-card{
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    border-radius: 47px;
+    color: white;
+    background-color: skyblue;
+
+}
+
+.btn-1{
+    position: absolute;
+    margin-top: -305px;
+    margin-left: -180px;
+    
+}
+
+
+
+.stories-card-multiple{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    
+    width: 58%;
+}
+.multiple-stories{
+    width: 94%;
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+.stories-img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.btn-2{
+    background-color: rgb(134, 234, 134);
+    position: absolute;
+    margin-top: -137px;
+    margin-left: -80px;
+}
+
+
+
+.stories-button{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 12px;
+    border-style: none;
+    padding: 10px 50px 10px 50px;
+}
+.stories-p{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.extra{
+    display: none;
+}
+
+
+
 
 
 
@@ -299,6 +422,16 @@ header > .icon{
     }
     .icon-2{
         display: none;
+    }
+
+    .stories-card-single{
+        display: none;
+    }
+    .stories-card-multiple{
+        width: 90%;
+    }
+    .extra{
+        display: block;
     }
 
    
